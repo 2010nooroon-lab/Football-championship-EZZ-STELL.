@@ -1,0 +1,189 @@
+ body{
+    margin: 0;
+    width: 85%;
+    text-align: right;
+    float: right ;
+   background-color: rgb(0, 47, 215);
+  background-image: url(ba.jpg);
+}
+
+#menu {
+    display: none;
+}
+
+.menu-btn {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+
+    position: fixed;
+    top: 15px;
+    left: 15px;
+
+    z-index: 10;
+}
+
+
+
+.sidebar {
+    width: 10%;
+    height: 100%;
+    background-color: #010247;
+
+    position: fixed;
+    top: 0;
+    left: -20%;
+
+    padding: 5%;
+    box-sizing: content-box;
+
+    transition: 0.4s;
+}
+
+
+
+.sidebar h2 {
+    color: white;
+    text-align: center;
+}
+
+
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 20px 0;
+}
+
+
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 12px;
+}
+
+
+
+.sidebar a:hover {
+    background-color: #2563eb;
+    border-radius: 8px;
+}
+
+
+
+#menu:checked ~ .sidebar {
+    left: 0;
+}
+
+#np{
+    color: #00d5ff;
+}
+h1{
+    color: #00d5ff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    height: fit-content;
+    width: fit-content;
+
+}
+h3{
+    
+    margin-top: 5px;
+     margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    width: fit-content;
+    color: #00d5ff
+    
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #101820;
+    font-family: Arial, sans-serif;
+    color: white;
+    padding: 30px;
+}
+
+.league-table {
+    background-color: #010247;
+    width: 80%;
+    max-width: none;
+    margin: 0 0 0 10%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#hhh{
+    margin: auto;
+    height: 5%;
+    width: fit-content;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #263544;
+    color: #aebdca;
+}
+
+th {
+    padding: 15px 8px;
+    font-size: 14px;
+}
+
+td {
+    padding: 13px 8px;
+    border-bottom: 1px solid #303d49;
+    font-size: 14px;
+}
+
+tbody tr:hover {
+    background-color: #263544;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: right;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.team img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.team-title {
+    text-align: right;
+}
+
+.points {
+   color: aquamarine;
+    font-weight: bold;
+}
+
+tbody tr:first-child td:first-child {
+    border-right: 4px solid ;
+}

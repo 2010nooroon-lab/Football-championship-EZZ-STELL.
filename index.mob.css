@@ -1,0 +1,108 @@
+body{
+    margin: auto;
+    width: 300px;
+    
+     background-color: rgb(0, 47, 215);
+  background-image: url(ba.jpg);
+}
+h1{
+    color: #00d5ff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    height: fit-content;
+    width: fit-content;
+text-align: center;
+}
+h3{
+    
+    margin-top: 5px;
+     margin-left: auto;
+    margin-right: auto;
+    height: fit-content;
+    width: fit-content;
+    color: #00d5ff;
+    text-align: center;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-btn {
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+
+    position: fixed;
+    top: 15px;
+    left: 15px;
+
+    z-index: 10;
+}
+
+
+
+.sidebar {
+    width: 10%;
+    height: 100%;
+    background-color: #010247;
+
+    position: fixed;
+    top: 0;
+    left: -20%;
+
+    padding: 5%;
+    box-sizing: content-box;
+
+    transition: 0.4s;
+}
+
+
+
+.sidebar h2 {
+    color: white;
+    text-align: center;
+}
+
+
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 20px 0;
+}
+
+
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 12px;
+}
+
+
+
+.sidebar a:hover {
+    background-color: #2563eb;
+    border-radius: 8px;
+}
+
+
+
+#menu:checked ~ .sidebar {
+    left: 0;
+}
+
+#vvv{
+    margin: auto;
+    width: fit-content;
+    height:fit-content;
+    text-align: center;
+    font-size: xx-large;
+}
